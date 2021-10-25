@@ -1,6 +1,6 @@
 {
   "name": "mui-easy-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily integrate a global modal system with your react-mui application!",
   "keywords": [
     "react",
