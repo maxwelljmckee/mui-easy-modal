@@ -1,6 +1,12 @@
 {
   "name": "mui-easy-modal",
-  "version": "1.0.1",
+  "version": "1.0.3",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "description": "Easily integrate a global modal system with your react-mui application!",
   "keywords": [
     "react",
@@ -18,11 +24,13 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
   "author": "maxwelljmckee <maxwelljmckee@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-react": "^7.14.5",
     "react": "^17.0.2"
-  }
+  },
 }
