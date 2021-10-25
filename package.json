@@ -9,7 +9,6 @@
   "author": "maxwelljmckee <maxwelljmckee@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "react": "^17.0.2"
   }
 }
