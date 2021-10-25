@@ -2,11 +2,27 @@
   "name": "mui-easy-modal",
   "version": "1.0.0",
   "description": "Easily integrate a global modal system with your react-mui application!",
-  "keywords": ["react", "reactjs", "material-ui", "mui", "modal", "modals", "dialog", "modal-dialog", "dialogs", "modal-dialogs", "global-modal", "global"],
+  "keywords": [
+    "react",
+    "reactjs",
+    "material-ui",
+    "mui",
+    "modal",
+    "modals",
+    "dialog",
+    "modal-dialog",
+    "dialogs",
+    "modal-dialogs",
+    "global-modal",
+    "global"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maxwelljmckee <maxwelljmckee@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
